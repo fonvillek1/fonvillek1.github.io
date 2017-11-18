@@ -1,0 +1,248 @@
+/*Body */
+body, html {
+    font-family: 'Lato', sans-serif; 
+	font-size: 15px;
+	line-height: 1.5;
+    margin: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+	/* padding-bottom: 5px; */
+}
+
+
+h1.center {
+    text-align: center;
+    color: #BA4A00;
+} 
+
+/* Header */
+header {
+	background: #F4D03F;
+	color: #ffffff;
+	padding-top: 0px;
+	min-height: 0px;
+	border-bottom: #BA4A00 3px solid;
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: #BA4A00;
+	font-weight: normal;
+}
+
+header a:hover {
+	color: #BA4A00;
+	font-weight: bold;
+}
+
+/* Showcase */
+#showcase {
+	background-image: url('../img/food-865102_1920.jpg');
+	background-position: center left;
+	min-height: 400px;
+	text-align: center;
+	border-bottom: #BA4A00 3px solid;
+}
+
+#showcase h1 {
+	color: #ffffff;
+	font-size: 50px;
+	line-height: 30%;
+	padding-top: 100px;
+}
+
+#showcase h2 {
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 30%;
+	padding-bottom: 70px;
+}
+
+#showcase2 {
+	background-image: url('../img/greens-266560_1920.jpg');
+	background-position: center left;
+	min-height: 400px;
+	text-align: center;
+	border-bottom: #BA4A00 3px solid;
+}
+
+#showcase2 h1 {
+	color: #c3de28;
+	font-size: 50px;
+	line-height: 30%; 
+	padding-top: 100px;
+}
+
+#showcase2 h2 {
+	color: #c3de28;
+	font-size: 30px;
+	line-height: 30%; 
+	padding-bottom: 70px;
+}
+
+#showcase3 {
+	background-image: url('../img/clarke-sanders-249797_3.jpg');
+	background-position: center;
+	min-height: 400px;
+	text-align: center;
+	border-bottom: #BA4A00 3px solid;
+}
+
+#showcase3 h1 {
+	color: #ffd143;
+	font-size: 50px;
+	line-height: 30%; 
+	padding-top: 100px;
+}
+
+#showcase3 h2 {
+	color: #ffd143;
+	font-size: 30px;
+	line-height: 30%; 
+	padding-bottom: 70px;
+}
+
+#showcase4 {
+	background-image: url('../img/black-coffee-1835414_1920.jpg');
+	background-position: center left left top top no-repeat;
+	min-height: 400px;
+	text-align: center;
+	border-bottom: #BA4A00 3px solid;
+}
+
+#showcase4 h1 {
+	color: #ffffff;
+	font-size: 50px;
+	line-height: 30%; 
+	padding-top: 120px;
+}
+
+#showcase4 h2 {
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 30%; 
+	padding-bottom: 70px;
+}
+
+/* Newsletter */
+#newsletter h4 {
+ 	text-align: center;
+}
+
+#newsletter form {
+  	text-align: center;
+  	margin-bottom: 15px;
+}
+
+#newsletter input[type="email"] {
+  	padding:4px;
+  	height:25px;
+  	width:250px;
+}
+
+.button_1 {
+  	height:38px;
+  	background:#BA4A00;
+  	border:0;
+  	padding-left: 20px;
+  	padding-right:20px;
+  	color:#ffffff;
+}
+
+/*Footer */
+footer{
+  	padding: 2px;
+  	margin-top: 2px;
+  	color: #BA4A00;
+  	background-color: #F4D03F;
+  	text-align: center;
+  	line-height: 5px;
+    font-size: 13px;
+}
+
+h4 {
+	line-height: 5px;
+}
+
+ul.share-buttons{
+  	list-style: none;
+  	padding: 0;
+}
+
+ul.share-buttons li{
+  	display: inline;
+}
+
+ul.share-buttons .sr-only{
+  	position: absolute;
+  	clip: rect(1px 1px 1px 1px);
+  	clip: rect(1px, 1px, 1px, 1px);
+  	padding: 0;
+  	border: 0;
+  	height: 1px;
+  	width: 1px;
+  	overflow: hidden;
+  	line-height: 5px;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  	header,
+  	header a,
+  	header li,
+  	header #branding
+  	header #branding h1,
+  	header nav,
+  	header .highlight, header .current a,
+  	#showcase h1,
+  	#showcase h2,
+  	#showcase2 h1,
+  	#showcase2 h2,
+  	#showcase3 h1,
+  	#showcase3 h2,
+  	#showcase4 h1,
+  	#showcase4 h2,
+  	#newsletter h4,
+  	#newsletter form,
+{
+    float:none;
+    text-align:center;
+    width:100%;
+}
+
+
